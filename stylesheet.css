@@ -130,3 +130,10 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* Ensure list bullets align with preceding text when <li> is used inside table cells */
+td > li {
+  list-style-position: inside;
+  margin-left: 0;
+  padding-left: 0;
+}
